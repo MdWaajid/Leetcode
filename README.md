@@ -5,7 +5,7 @@ Welcome to my **LeetCode Solutions Repository**! 👋
 This repository is an automatically maintained collection of my LeetCode problem solutions. Every accepted solution is synced directly from LeetCode using **LeetSync**, making it a live record of my coding journey and consistency.
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/MdWaajid?theme=dark&font=Outfit&ext=heatmap" alt="LeetCode Stats">
+  <img src="[https://leetcard.jacoblin.cool/MdWaajid?theme=dark&font=Outfit&ext=heatmap](https://leetcard.jacoblin.cool/MdWaajid?theme=dark&font=Outfit&ext=heatmap&cache=0)" alt="LeetCode Stats">
 </p>
 
 ---
