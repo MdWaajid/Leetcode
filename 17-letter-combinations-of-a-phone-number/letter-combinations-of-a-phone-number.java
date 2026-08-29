@@ -4,25 +4,24 @@ class Solution {
 
         String[] phone={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
         List<String> result=new ArrayList<>();
-        StringBuilder path=new StringBuilder();
 
-        backtrack(0,digits,phone,path,result);
+        backtrack(0,digits,"",phone,result);
+
         return result;
     }
 
-    void backtrack(int i,String digits,String[] phone,
-                   StringBuilder path,List<String> result) {
+    void backtrack(int i,String digits,String path,
+                   String[] phone,List<String> result) {
+
         if(i==digits.length()){
-            result.add(path.toString());
+            result.add(path);
             return;
         }
 
         String letters=phone[digits.charAt(i)-'0'];
 
         for(char c:letters.toCharArray()){
-            path.append(c);
-            backtrack(i+1,digits,phone,path,result);
-            path.deleteCharAt(path.length()-1);
+            backtrack(i+1,digits,path+c,phone,result);
         }
     }
 }
